@@ -1,0 +1,13 @@
+.form1{
+    width: 500px;
+    margin: 0px auto;
+    background-color: white;
+    padding: 20px;
+
+}
+body{
+    background-color: lightgreen;
+}
+button{
+    background-color: green;
+}
