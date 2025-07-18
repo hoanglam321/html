@@ -1,52 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <link rel="stylesheet" href="form.css">
-</head>
-<body>
-<form class="form1">
-  <label for="fname">Name:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="Enter your name" size="30"><br><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" placeholder="Enter your email" size="30"><br><br>
-  <label for="quantity">Age:</label><br>
-  <input type="number" id="quantity" name="quantity" placeholder="Enter your age" size="30"><br>
-    <p>Which option best describes you</p>
-    <input list="browsers">
-  <datalist id="browsers">
-    <option value="Student">
-  </datalist>
-    <p>Would you recommend GeeksforGeeks to a friend?</p>
- <input type="radio" id="html" name="fav_language" value="HTML">
-<label for="html">Yes</label><br>
-<input type="radio" id="css" name="fav_language" value="CSS">
-<label for="css">No</label><br>
-<input type="radio" id="javascript" name="fav_language" value="JavaScript">
- <label for="css">Maybe</label><br>
- <p>Languages and frameworks known (Check all that apply)</p>
-   <input type="checkbox" id="language" name="language" value="C">
-  <label for="language">C</label><br>
-     <input type="checkbox" id="language" name="language" value="C++">
-  <label for="language">C++</label><br>
-     <input type="checkbox" id="language" name="language" value="C#">
-  <label for="language">C#</label><br>
-     <input type="checkbox" id="language" name="language" value="Java">
-  <label for="language">Java</label><br>
-     <input type="checkbox" id="language" name="language" value="Python">
-  <label for="language">Python</label><br>
-     <input type="checkbox" id="language" name="language" value="JavaScript">
-  <label for="language">JavaScript</label><br>
-     <input type="checkbox" id="language" name="language" value="React">
-  <label for="language">React</label><br>
-     <input type="checkbox" id="language" name="language" value="Angular">
-  <label for="language">Angular</label><br>
-     <input type="checkbox" id="language" name="language" value="Django">
-  <label for="language">Django</label><br>
-     <input type="checkbox" id="language" name="language" value="Spring">
-  <label for="language">Spring</label><br><br>
-  <p>Any comments or suggestions</p>
-  <input type="text" id="comments" name="comments" style="width: 450px;height: 30px;" placeholder="Enter your comment here"><br><br>
- <input type="submit" value="Submit" class="button" style="width: 500px;">
-</form>
-</body>
+  <head>
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <form class="form1">
+      <label for="fname">Name:</label><br />
+      <input
+        type="text"
+        id="fname"
+        name="fname"
+        placeholder="Enter your name"
+        size="30"
+        style="width: 100%"
+      /><br /><br />
+      <label for="email">Email:</label><br />
+      <input
+        type="email"
+        id="email"
+        name="email"
+        placeholder="Enter your email"
+        size="30"
+        style="width: 100%"
+      /><br /><br />
+      <label for="quantity">Age:</label><br />
+      <input
+        type="number"
+        id="quantity"
+        name="quantity"
+        placeholder="Enter your age"
+        size="30"
+        style="width: 100%"
+      /><br />
+      <p>Which option best describes you</p>
+      <!-- <input list="browsers" /> -->
+      <select name="cars" id="cars" style="width: 100%">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+      </select>
+
+      <p>Would you recommend GeeksforGeeks to a friend?</p>
+      <input type="radio" id="html" name="fav_language" value="HTML" />
+      <label for="html">Yes</label><br />
+      <input type="radio" id="css" name="fav_language" value="CSS" />
+      <label for="css">No</label><br />
+      <input
+        type="radio"
+        id="javascript"
+        name="fav_language"
+        value="JavaScript"
+      />
+      <label for="css">Maybe</label><br />
+      <p>Languages and frameworks known (Check all that apply)</p>
+      <input type="checkbox" id="language" name="language" value="C" />
+      <label for="language">C</label><br />
+      <input type="checkbox" id="language" name="language" value="C++" />
+      <label for="language">C++</label><br />
+      <input type="checkbox" id="language" name="language" value="C#" />
+      <label for="language">C#</label><br />
+      <input type="checkbox" id="language" name="language" value="Java" />
+      <label for="language">Java</label><br />
+      <input type="checkbox" id="language" name="language" value="Python" />
+      <label for="language">Python</label><br />
+      <input type="checkbox" id="language" name="language" value="JavaScript" />
+      <label for="language">JavaScript</label><br />
+      <input type="checkbox" id="language" name="language" value="React" />
+      <label for="language">React</label><br />
+      <input type="checkbox" id="language" name="language" value="Angular" />
+      <label for="language">Angular</label><br />
+      <input type="checkbox" id="language" name="language" value="Django" />
+      <label for="language">Django</label><br />
+      <input type="checkbox" id="language" name="language" value="Spring" />
+      <label for="language">Spring</label><br /><br />
+      <p>Any comments or suggestions</p>
+      <textarea
+        type="text"
+        id="comments"
+        name="comments"
+        style="width: 450px; height: 30px"
+        placeholder="Enter your comment here"
+        style="width: 100%"
+      ></textarea><br /><br />
+      <input type="submit" value="Submit" class="button" style="width: 500px; background-color: rgb(47, 234, 47);" />
+    </form>
+  </body>
 </html>
